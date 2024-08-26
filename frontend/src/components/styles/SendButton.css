@@ -1,0 +1,10 @@
+.send-button {
+  background-color: var(--primary-color);
+  transition: var(--time-transition);
+  &:hover {
+    background-color: var(--semi-primary-color);
+    .icon {
+      fill: var(--semi-default-color);
+    }
+  }
+}

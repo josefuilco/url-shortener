@@ -1,0 +1,10 @@
+.copy-button {
+  background-color: var(--secondary-color);
+  transition: var(--time-transition);
+  &:hover {
+    background-color: var(--semi-secondary-color);
+    .icon {
+      fill: var(--semi-default-color);
+    }
+  }
+}

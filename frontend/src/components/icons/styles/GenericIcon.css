@@ -1,0 +1,6 @@
+.icon {
+  height: 18px;
+  width: 18px;
+  fill: var(--default-color);
+  transition: var(--time-transition);
+}

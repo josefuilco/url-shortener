@@ -1,0 +1,10 @@
+.short-link-field {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  width: 100%;
+
+  > input[type="text"] {
+    color: var(--placeholder-color);
+  }
+}

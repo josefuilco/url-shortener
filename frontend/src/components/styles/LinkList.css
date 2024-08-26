@@ -1,0 +1,28 @@
+#list-link {
+  display: flex;
+  flex-direction: column;
+  gap: var(--default-gap);
+  height: auto;
+  width: 100%;
+  > li {
+    box-shadow: 0px 0px 0px 0px;
+    > div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 10px;
+      &:first-child {
+        height: 40px;
+        background-color: var(--semi-primary-color);
+        border-radius: 4px 4px 0px 0px;
+      }
+      &:last-child {
+        background-color: var(--semi-secondary-color);
+        border-radius: 0px 0px 4px 4px;
+      }
+    }
+    button {
+      border-radius: 0px 0px 4px 0px;
+    }
+  }
+}

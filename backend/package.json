@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "node --env-file=.env ./dist/main.js",
+    "dev": "ts-node-dev --env-file=.env ./src/main.ts",
+    "build": "tsc",
+    "build:start": "tsc && node --env-file=.env ./dist/main.js"
+  },
+  "keywords": [],
+  "author": "Jose Fuilco",
+  "license": "MIT",
+  "description": "Url Shortener created with NodeJS + Typescript and VueJS + Typescript",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.4.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "backend": "file:",
+    "cors": "2.8.5",
+    "express": "4.19.2",
+    "mongodb": "6.8.0"
+  }
+}

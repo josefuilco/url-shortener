@@ -1,0 +1,9 @@
+.custom-button {
+  display: flex;
+  padding: 11px 11px;
+  border-radius: 0px 4px 4px 0px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
