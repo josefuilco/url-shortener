@@ -41,26 +41,27 @@ En el proyecto el backend lo deje con endpoints publicos para que al momento del
   En este endpoint lo que se sube son los links con una estructura de json como la siguiente:
   Request:
   {
-	website: 'http://www.holamundo.com'
+	"website": "http://www.holamundo.com"
   }
   Response:
   {
-	_id: '00000000'
+	"_id": "00000000"
   }
 
 # GET /api/v1.0/public/link/findLink/:id
   En este endpoint no se sube ningun body, sino que a través del parametro solo pasan el id del link que quieres buscar y te traera el sitio web.
   Response:
   {
-	website: 'http://www.holamundo.com'
+	"website": "http://www.holamundo.com"
   }
 
 # GET /api/v1.0/public/link/allLinks
-  En este endpoint no se sube ningun body, sino que a través del parametro solo pasan el id del link que quieres buscar y te traera el sitio web.
+  En este endpoint no se sube ningun body, por si solo te traera todos los sitios web.
   Response:
   [
 	{
-	website: 'http://www.holamundo.com'
+		"_id": "00000000"
+		"website": "http://www.holamundo.com"
   	}
   ]
 ```
